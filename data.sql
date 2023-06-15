@@ -3,7 +3,6 @@ CREATE DATABASE bookstore;
 \c bookstore
 
 DROP TABLE IF EXISTS books;
-
 CREATE TABLE books (
   isbn TEXT PRIMARY KEY,
   amazon_url TEXT,
